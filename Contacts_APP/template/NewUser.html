@@ -1,0 +1,16 @@
+<section>
+    <div class="newuser">
+        <form>
+            Name : <input type="text" ng-model="user.Name" /><br />
+            Phone Number : <input type="number" ng-model="user.PhoneNumber" /><br />
+            Gender : <input type="radio" ng-model="user.Sex" value="Male" />Male
+            <input type="radio" ng-model="user.Sex" value="Female" />Female <br />
+            Address : </br>
+            Street : <input type="text" ng-model="user.Address.Street" /><br />
+            City : <input type="City" ng-model="user.Address.City" /><br />
+            Pincode : <input type="Number" ng-model="user.Address.Pincode" /><br />
+            <button ng-click="addUser(user)" >Save Contact</button>
+        </form>
+        <a href="#/"> <- Back to Contact list</a>
+    </div>        
+</section>

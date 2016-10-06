@@ -1,0 +1,17 @@
+{
+  "name": "user-details",
+  "version": "1.0.0",
+  "description": "Demo purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "http-status": "^0.2.3",
+    "mongoose": "^4.5.8"
+  }
+}
